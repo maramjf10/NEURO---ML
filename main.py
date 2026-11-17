@@ -1,0 +1,13 @@
+import pandas as pd
+stars = pd.read_csv("data/stars-dataset.csv")
+print("\n===== NEURON STAR CLASSIFIER =====")
+print("\nDataset dimensions:")
+print(stars.shape)
+print("\nAvailable columns:")
+print(stars.columns.tolist())
+print("\nFirst 10 stars:")
+print(stars[["proper", "ci", "absmag", "spect"]].head(10))
+print("\nMissing values:")
+print(stars[["ci", "absmag", "spect"]].isnull().sum())
+print("\nMost common spectral classifications:")
+print(stars["spect"].value_counts().head(20))
