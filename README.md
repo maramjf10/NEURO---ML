@@ -169,7 +169,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Dataset
+## ⭐ Dataset
 
 This project uses the HYG Star Database, an astronomical star catalogue containing information about stellar properties.
 
@@ -185,7 +185,7 @@ The project uses spectral classification information to derive the target catego
 
 **Dataset source:** https://codeberg.org/astronexus/hyg
 
-## Important Notes
+## ⭐ Important Notes
 
 - The model predicts stellar categories based on the two selected input features.
 - It is an educational machine learning project, not a replacement for professional astronomical analysis.
